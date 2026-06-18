@@ -1,348 +1,225 @@
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motel Doce Tentação | Onde o desejo encontra o conforto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Motel Doce Tentação - Conforto, privacidade, discrição e sofisticação para momentos especiais.">
+<title>Motel Doce Tentação</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-
-    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- PARTICULAS -->
-    <div id="particles-js"></div>
+<header>
+    <div class="container">
 
-    <!-- BOTÃO WHATSAPP -->
-    <a href="https://wa.me/5533985835555" target="_blank" class="whatsapp-float">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+        <div class="logo">
+            ❤️ Motel Doce Tentação
+        </div>
 
-    <!-- MENU -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                ❤️ <span>Doce Tentação</span>
-            </div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#suites">Suítes</a>
+            <a href="#precos">Preços</a>
+            <a href="#diferenciais">Diferenciais</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+        </nav>
 
-            <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#suites">Suítes</a></li>
-                <li><a href="#precos">Preços</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#contato">Contato</a></li>
+    </div>
+</header>
+
+<section id="inicio" class="hero">
+
+    <!-- FOTO EXTERNA DA PASTA IMAGES -->
+    <img src="images/banner.jpg" alt="Banner Motel Doce Tentação">
+
+    <div class="hero-texto">
+
+        <h1>Motel Doce Tentação</h1>
+
+        <h2>Onde o desejo encontra o conforto.</h2>
+
+        <p>
+            O Motel Doce Tentação foi idealizado para oferecer conforto,
+            privacidade e uma experiência diferenciada aos clientes.
+            Com uma estrutura moderna, serviços de qualidade e localização estratégica,
+            proporcionamos momentos especiais com total discrição.
+        </p>
+
+        <a href="https://wa.me/5533985835555" class="btn">
+            Reservar Agora
+        </a>
+
+    </div>
+
+</section>
+
+<section class="estrutura">
+
+    <h2>Nossa Estrutura</h2>
+
+    <div class="cards">
+
+        <div class="card">15 Suítes</div>
+        <div class="card">15 Camas</div>
+        <div class="card">15 TVs</div>
+        <div class="card">15 Ar-Condicionados</div>
+        <div class="card">15 Frigobares</div>
+        <div class="card">15 Banheiros</div>
+        <div class="card">15 Garagens Privativas</div>
+        <div class="card">5 Hidromassagens</div>
+
+    </div>
+
+</section>
+
+<section id="suites">
+
+    <h2>Suítes</h2>
+
+    <div class="suites-grid">
+
+        <div class="suite">
+
+            <!-- FOTO DA PASTA IMAGES -->
+            <img src="images/suite-comum.jpg" alt="Suíte Comum">
+
+            <h3>Suíte Comum</h3>
+
+            <ul>
+                <li>Cama King Size</li>
+                <li>Smart TV</li>
+                <li>Ar-condicionado</li>
+                <li>Frigobar</li>
+                <li>Banheiro Privativo</li>
+                <li>Garagem Privativa</li>
             </ul>
 
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
-    </header>
+        </div>
 
-    <!-- HERO -->
-    <section id="inicio" class="hero">
+        <div class="suite">
 
-        <div class="hero-overlay"></div>
+            <!-- FOTO DA PASTA IMAGES -->
+            <img src="images/suite-luxo.jpg" alt="Suíte Luxo">
 
-        <div class="hero-content" data-aos="fade-up">
+            <h3>Suíte Luxo</h3>
 
-            <h1>Motel Doce Tentação</h1>
-
-            <p class="slogan">
-                Onde o desejo encontra o conforto.
-            </p>
-
-            <p class="hero-text">
-                Conforto, privacidade e uma experiência diferenciada para momentos inesquecíveis.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#suites" class="btn-primary">Conheça as Suítes</a>
-                <a href="#precos" class="btn-secondary">Ver Tarifas</a>
-            </div>
+            <ul>
+                <li>Cama King Size</li>
+                <li>Smart TV</li>
+                <li>Ar-condicionado</li>
+                <li>Frigobar</li>
+                <li>Banheiro Privativo</li>
+                <li>Garagem Privativa</li>
+                <li>Hidromassagem</li>
+            </ul>
 
         </div>
 
-    </section>
+    </div>
 
-    <!-- SOBRE -->
-    <section id="sobre" class="sobre">
+</section>
 
-        <div class="container">
+<section id="precos">
 
-            <h2 data-aos="fade-up">Sobre o Motel</h2>
+    <h2>Tabela de Valores</h2>
 
-            <p data-aos="fade-up" data-aos-delay="200">
-                O Motel Doce Tentação foi idealizado para oferecer conforto, privacidade e uma experiência
-                diferenciada aos clientes.
-                Com uma estrutura moderna, serviços de qualidade e uma localização estratégica,
-                o empreendimento se destaca no mercado.
-            </p>
+    <div class="precos-grid">
 
-            <div class="stats">
+        <div class="preco-card">
 
-                <div class="stat-card" data-aos="zoom-in">
-                    <h3 class="counter" data-target="15">0</h3>
-                    <p>Suítes</p>
-                </div>
+            <h3>Suíte Comum</h3>
 
-                <div class="stat-card" data-aos="zoom-in">
-                    <h3 class="counter" data-target="15">0</h3>
-                    <p>TVs Smart</p>
-                </div>
-
-                <div class="stat-card" data-aos="zoom-in">
-                    <h3 class="counter" data-target="15">0</h3>
-                    <p>Garagens</p>
-                </div>
-
-                <div class="stat-card" data-aos="zoom-in">
-                    <h3 class="counter" data-target="5">0</h3>
-                    <p>Hidromassagens</p>
-                </div>
-
-            </div>
+            <p>1 Hora: R$ 90,00</p>
+            <p>Hora Adicional: R$ 30,00</p>
+            <p>Pernoite: R$ 220,00</p>
 
         </div>
 
-    </section>
+        <div class="preco-card">
 
-    <!-- SUÍTES -->
-    <section id="suites" class="suites">
+            <h3>Suíte Luxo</h3>
 
-        <div class="container">
-
-            <h2 data-aos="fade-up">Nossas Suítes</h2>
-
-            <div class="suite-grid">
-
-                <div class="suite-card" data-aos="fade-right">
-
-                    <div class="suite-image">
-                        <img src="imagens/suite1.jpg" alt="Suíte Comum">
-                    </div>
-
-                    <div class="suite-info">
-
-                        <h3>Suíte Comum</h3>
-
-                        <ul>
-                            <li>✔ Cama King Size</li>
-                            <li>✔ Smart TV</li>
-                            <li>✔ Ar-condicionado</li>
-                            <li>✔ Frigobar</li>
-                            <li>✔ Banheiro Privativo</li>
-                            <li>✔ Garagem Exclusiva</li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-                <div class="suite-card destaque" data-aos="fade-left">
-
-                    <div class="suite-image">
-                        <img src="imagens/suite2.jpg" alt="Suíte Luxo">
-                    </div>
-
-                    <div class="suite-info">
-
-                        <h3>Suíte Luxo</h3>
-
-                        <ul>
-                            <li>✔ Cama King Size</li>
-                            <li>✔ Smart TV</li>
-                            <li>✔ Ar-condicionado</li>
-                            <li>✔ Frigobar</li>
-                            <li>✔ Banheiro Privativo</li>
-                            <li>✔ Garagem Exclusiva</li>
-                            <li>✔ Hidromassagem Premium</li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
+            <p>1 Hora: R$ 140,00</p>
+            <p>Hora Adicional: R$ 45,00</p>
+            <p>Pernoite: R$ 320,00</p>
 
         </div>
 
-    </section>
+    </div>
 
-    <!-- CALCULADORA -->
-    <section id="precos" class="calculadora">
+    <p class="obs">
+        Valores sujeitos a alterações em feriados e datas comemorativas.
+        Pacotes românticos, café da manhã e reservas antecipadas disponíveis.
+    </p>
 
-        <div class="container">
+</section>
 
-            <h2>Calculadora de Reserva</h2>
+<section id="diferenciais">
 
-            <div class="calc-box">
+    <h2>Diferenciais</h2>
 
-                <select id="suite">
+    <div class="cards">
 
-                    <option value="comum">
-                        Suíte Comum
-                    </option>
+        <div class="card">❤️ Conforto e Privacidade</div>
+        <div class="card">🛁 Hidromassagem</div>
+        <div class="card">🍾 Ambiente Romântico</div>
+        <div class="card">🚗 Garagem Privativa</div>
+        <div class="card">⏰ Atendimento 24 Horas</div>
+        <div class="card">🌐 Wi-Fi Gratuito</div>
 
-                    <option value="luxo">
-                        Suíte Luxo
-                    </option>
+    </div>
 
-                </select>
+</section>
 
-                <input type="number" id="horas" min="1" value="1">
+<section id="galeria">
 
-                <button onclick="calcularReserva()">
-                    Calcular
-                </button>
+    <h2>Galeria</h2>
 
-                <div id="resultado">
-                    Total: R$ 0,00
-                </div>
+    <div class="galeria-grid">
 
-            </div>
+        <!-- TROQUE PELAS SUAS FOTOS -->
 
-        </div>
+        <img src="images/galeria1.jpg" alt="">
+        <img src="images/galeria2.jpg" alt="">
+        <img src="images/galeria3.jpg" alt="">
+        <img src="images/galeria4.jpg" alt="">
+        <img src="images/galeria5.jpg" alt="">
+        <img src="images/galeria6.jpg" alt="">
 
-    </section>
+    </div>
 
-    <!-- GALERIA -->
-    <section id="galeria" class="galeria">
+</section>
 
-        <div class="container">
+<section id="contato">
 
-            <h2>Galeria</h2>
+    <h2>Contato</h2>
 
-            <div class="swiper mySwiper">
+    <p><strong>Instagram:</strong> @DOCETENTACAO</p>
 
-                <div class="swiper-wrapper">
+    <p><strong>WhatsApp:</strong> (33) 98583-5555</p>
 
-                    <div class="swiper-slide">
-                        <img src="imagens/suite1.jpg">
-                    </div>
+    <a href="https://wa.me/5533985835555" class="btn">
+        Fazer Reserva
+    </a>
 
-                    <div class="swiper-slide">
-                        <img src="imagens/suite2.jpg">
-                    </div>
+</section>
 
-                    <div class="swiper-slide">
-                        <img src="imagens/suite3.jpg">
-                    </div>
+<footer>
 
-                </div>
+    <h3>Motel Doce Tentação</h3>
 
-                <div class="swiper-pagination"></div>
+    <p>Onde o desejo encontra o conforto.</p>
 
-            </div>
+    <p>© 2026 - Todos os direitos reservados.</p>
 
-        </div>
-
-    </section>
-
-    <!-- DIFERENCIAIS -->
-    <section class="diferenciais">
-
-        <div class="container">
-
-            <h2>Diferenciais</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    ❤️ Conforto e Privacidade
-                </div>
-
-                <div class="card">
-                    🛁 Hidromassagem Premium
-                </div>
-
-                <div class="card">
-                    🍾 Ambiente Romântico
-                </div>
-
-                <div class="card">
-                    🚗 Garagem Individual
-                </div>
-
-                <div class="card">
-                    ⏰ Atendimento 24 Horas
-                </div>
-
-                <div class="card">
-                    🌐 Wi-Fi Gratuito
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- CONTATO -->
-    <footer id="contato">
-
-        <div class="container">
-
-            <h2>Motel Doce Tentação</h2>
-
-            <p>
-                Privacidade, segurança e conforto para seus melhores momentos.
-            </p>
-
-            <div class="footer-contact">
-
-                <p>
-                    <i class="fab fa-instagram"></i>
-                    @DOCETENTACAO
-                </p>
-
-                <p>
-                    <i class="fab fa-whatsapp"></i>
-                    (33) 98583-5555
-                </p>
-
-            </div>
-
-            <a href="https://wa.me/5533985835555"
-                target="_blank"
-                class="btn-primary">
-                Reservar Agora
-            </a>
-
-        </div>
-
-    </footer>
-
-    <!-- SCRIPTS -->
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-    <script src="script.js"></script>
+</footer>
 
 </body>
-
 </html>
 ```
